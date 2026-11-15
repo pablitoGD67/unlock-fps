@@ -1,0 +1,24 @@
+{
+	"geode": "v5.11.2",
+	"gd": {
+		"android": "2.2081"
+	},
+	"id": "tunombre.unlock-fps",
+	"name": "Unlock FPS",
+	"version": "v1.0.0",
+	"developer": "tunombre",
+	"description": "Quita el límite de 60 FPS en móvil.",
+	"settings": {
+		"target-fps": {
+			"type": "int",
+			"name": "FPS objetivo",
+			"description": "FPS a los que quieres que corra el juego (60 = normal).",
+			"default": 120,
+			"min": 30,
+			"max": 240,
+			"control": {
+				"slider": true
+			}
+		}
+	}
+}
